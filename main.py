@@ -35,7 +35,7 @@ while(True):
 
     now = datetime.now()
     currentTime = now.strftime("%H:%M:%S")
-    sleepTime = random.choice(range(300, 801))
+    sleepTime = random.choice(range(300, 802))
 
     print(str(currentTime) + ": " + str(list) + ". Sleeping for: " + str(sleepTime))
     sleep(sleepTime)
