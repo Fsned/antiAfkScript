@@ -6,7 +6,7 @@ from datetime import datetime
 def pressKeyRandomTime(key):
     #print("Pressing: " + str(key))
     pyautogui.keyDown(key)
-    randomTime = random.choice(range(100, 700))
+    randomTime = random.choice(range(350, 1500))
     #print ("keyUpDownInterval: " + str(randomTime) + " msecs.")
     sleep(randomTime / 1000.0)
     pyautogui.keyUp(key)
@@ -35,7 +35,7 @@ while(True):
 
     now = datetime.now()
     currentTime = now.strftime("%H:%M:%S")
-    sleepTime = random.choice(range(300, 803))
+    sleepTime = random.choice(range(244, 415))
 
     print(str(currentTime) + ": " + str(list) + ". Sleeping for: " + str(sleepTime))
     sleep(sleepTime)
