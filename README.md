@@ -1,5 +1,7 @@
 # antiAfkScript
-a script to prevent wow from logging out
+a script to prevent wow from logging out.
+
+### Any usage at your own risk
 
 
 ## Usage
